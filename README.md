@@ -82,7 +82,7 @@ To run the project locally, follow these steps:
 8. Make sure to export the `PYTHONPATH` to include the project directory:
   
   ```bash
-  export PYTHONPATH=$(pwd)
+    export PYTHONPATH=$(pwd)
 
 7. Run the Gradio UI:
 
