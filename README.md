@@ -65,7 +65,7 @@ To run the project locally, follow these steps:
 4. Activate the venv:
    
    ```bash
-  source venv/bin/activate
+     source venv/bin/activate
 
 4. Install dependencies:
    
