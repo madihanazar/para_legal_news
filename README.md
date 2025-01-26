@@ -50,43 +50,45 @@ To run the project locally, follow these steps:
 ### **Installation**
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/yourusername/para_legal_news.git
    cd para_legal_news/latest_ai_development/src/latest_ai_development
-   ```
+   
 
-2. Create a virtual env:
+3. Create a virtual env:
+   
    ```bash
-  python -m venv venv
-  ```
+    python -m venv venv
+    
 
-3. Activate the venv:
+4. Activate the venv:
+   
    ```bash
   source venv/bin/activate
-  ```
 
 4. Install dependencies:
+   
    ```bash
     pip install -r requirements.txt
-   ```
    
-5. Add .env file in the root folder with the API keys to SambaNova and Serper
+6. Add .env file in the root folder with the API keys to SambaNova and Serper
+   
    ```bash
    MODEL=<enter-your-value-here>
    SAMBANOVA_API_KEY=<enter-your-value-here>
    SERPER_API_KEY=<enter-your-value-here>
-   ```
   
-6. Make sure to export the `PYTHONPATH` to include the project directory:
+8. Make sure to export the `PYTHONPATH` to include the project directory:
   
   ```bash
   export PYTHONPATH=$(pwd)
-  ```
 
 7. Run the Gradio UI:
+
   ```bash
     src/latest_ai_development/gradio_ui.py
-  ```
+  
 
 ## Acknowledgments
 - Thanks to the CrewAI team for the framework.
