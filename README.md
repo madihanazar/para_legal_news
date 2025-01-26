@@ -59,6 +59,7 @@ To run the project locally, follow these steps:
 3. Create a virtual env:
    
    ```bash
+    cd latest_ai_development
     python -m venv venv
     
 
@@ -88,7 +89,7 @@ To run the project locally, follow these steps:
 7. Run the Gradio UI:
 
   ```bash
-    src/latest_ai_development/gradio_ui.py
+    python3 src/latest_ai_development/gradio_ui.py
   ```
 
 ## Acknowledgments
