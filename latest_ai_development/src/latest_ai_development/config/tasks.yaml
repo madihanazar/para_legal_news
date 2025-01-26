@@ -1,23 +1,40 @@
 # src/latest_ai_development/config/tasks.yaml
+# src/latest_ai_development/config/tasks.yaml
 research_task:
   description: >
-    Conduct a thorough research about {topic}. Use the following links as your primary source:
-    https://www.moj.gov.ae/ar/laws-and-legislation.aspx
-    https://u.ae/en/information-and-services/
-    https://www.pension.gov.ae/en-us/Pages/PensionLaw.aspx
-    https://uaelegislation.gov.ae/ar/legislations
-    https://www.moec.gov.ae/en/companies-legislations
-    https://dubailawyers.com/blog/legal-aspects-for-non-profit-organization/#:~:text=5%20of%201985%20
-    If no relevant information is found on the link, then search the web for the most recent changes.
+    research_task:
+  description: >
+    Conduct a thorough research about {topic} using only the links that are provided below. 
+    If the {topic} is tax, tax laws, or anything related to tax, use only the pdfs that are uploaded to the link below, because it is an official source. It should be given maximum priority:
+    https://github.com/nikhilshaji17/test_pdfs/tree/main/tax.  
+    However, if the {topic} is about traffic laws or anything related to vehicles, then use only the pdfs that are uploaded to the link below, because it is an official source. It should be given maximum priority:
+    https://github.com/nikhilshaji17/test_pdfs/tree/main/traffic%20laws
+    However, if the {topic} is about business, startups, companies or anything related to businesses then use only the pdfs that are uploaded to the link below, because it is an official source. It should be given maximum priority:
+    https://github.com/nikhilshaji17/test_pdfs/blob/main/Business_Laws_UAE.pdf
+    However, if the {topic} is about visa, immigration, residencies, status correction or anything related to visas and immigration then use only the pdfs that are uploaded to the link below, because it is an official source. It should be given maximum priority:
+    https://github.com/nikhilshaji17/test_pdfs/blob/main/Status_Correction_Law_UAE_Final.pdf
+    If the relevant information is not found in the links above, or not enough information is available, then use other sources.
+    If the information is obtained from the links mentioned above, place it under a title called: Official Sources
+    If the information is not obtained from the links mentioned above, place it under a title called: Unofficial Sources
+    Also provide the date of the sources.
   expected_output: >
     A list with 5 bullet points of the most relevant information about {topic}. All the sources and their dates have to be listed as well.
   agent: researcher
+  
 
 reporting_task:
   description: >
     Review the context you got and summarize each topic into a full section for a report.
     Make sure the report is detailed and contains any and all relevant information.
-    Also include the date of the 
+    Also include the date of the sources. All the sources that are not from the links mentioned above
+    have to be placed under another heading called: Unofficial Sources
+    The report has to be of the following format:
+    1. Information from official sources
+    2. Links of official sources under the title: Official Sources
+    3. Information from unofficial sources
+    4. Links of unofficial sources under the title: Unofficial Sources
+    If any one of these titles has insufficient information, just mention the following
+    statement: Insufficient information found.
   expected_output: >
     A fully fledge reports with the mains topics, each with a full section of information, and the link from where the information was retrieved.
     Formatted as markdown without '```'

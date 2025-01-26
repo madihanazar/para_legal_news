@@ -1,1 +1,1 @@
-export PYTHONPATH=/home/goha/para_legal_news/latest_ai_development/src:$PYTHONPATH
+export PYTHONPATH=/Users/nasqnik/mvp_ready/latest_ai_development/src:$PYTHONPATH

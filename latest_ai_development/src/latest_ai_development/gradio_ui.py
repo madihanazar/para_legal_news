@@ -47,7 +47,7 @@ def run_gradio_search_task(topic):
 interface = gr.Interface(
     fn=run_gradio_search_task,  # The function that Gradio will call
     inputs=gr.Textbox(label="Enter Topic for Research Task"),  # User input
-    outputs=gr.Textbox(label="Task Output"),  # Display the result
+    outputs=gr.Textbox(label="ParaLegal may make mistakes, so please use it at your own discretion"),  # Display the result
 )
 
 

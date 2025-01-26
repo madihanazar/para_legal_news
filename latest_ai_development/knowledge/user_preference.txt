@@ -1,4 +1,14 @@
-User name is John Doe.
-User is an AI Engineer.
-User is interested in AI Agents.
-User is based in San Francisco, California.
+Name: John Doe
+Location: United Arab Emirates (UAE), living in either Abu Dhabi or Dubai
+Occupation: Ordinary Citizen (Commoner)
+Background: John is a typical resident of the UAE. He leads a simple, everyday life, focusing on work, family, and personal affairs. Although he isn’t involved in legal matters regularly, he occasionally faces situations that make him curious about the laws in the country. His questions often involve basic, everyday topics, like traffic fines, rules for public behavior, and general legal practices. For example, he might wonder if there’s a fine for driving without a seatbelt or what the legal drinking age is in the UAE.
+
+John doesn’t consider himself an expert on legal matters but values clarity when it comes to understanding the laws that affect his daily life. He’s likely to seek out information through easily accessible sources, perhaps asking online, reaching out to authorities, or looking for guidance on common scenarios.
+
+Personality Traits:
+
+Curious but cautious
+Pragmatic in seeking straightforward answers
+Prefers clear, concise information
+Not overly engaged with legal jargon, prefers simple language
+Often looks for reassurance about doing things right under the law
