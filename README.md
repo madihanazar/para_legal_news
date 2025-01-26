@@ -75,14 +75,17 @@ To run the project locally, follow these steps:
 6. Add .env file in the root folder with the API keys to SambaNova and Serper
    
    ```bash
+   cd latest_ai_development/
+   cat << EOF > .env
    MODEL=<enter-your-value-here>
    SAMBANOVA_API_KEY=<enter-your-value-here>
    SERPER_API_KEY=<enter-your-value-here>
+   EOF
   
 8. Make sure to export the `PYTHONPATH` to include the project directory:
   
   ```bash
-    cd latest_ai_development/src/latest_ai_development/
+    cd src/latest_ai_development/
     export PYTHONPATH=$(pwd)
   ```
 
