@@ -83,12 +83,13 @@ To run the project locally, follow these steps:
   
   ```bash
     export PYTHONPATH=$(pwd)
+  ```
 
 7. Run the Gradio UI:
 
   ```bash
     src/latest_ai_development/gradio_ui.py
-  
+  ```
 
 ## Acknowledgments
 - Thanks to the CrewAI team for the framework.
