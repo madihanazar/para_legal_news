@@ -1,0 +1,5 @@
+gradio
+sambanova-gradio
+python-dotenv
+crewai crewai-tools
+snowflake-connector-python
