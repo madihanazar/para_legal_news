@@ -1,5 +1,6 @@
 gradio
 sambanova-gradio
 python-dotenv
-crewai crewai-tools
+crewai 
+crewai-tools
 snowflake-connector-python
