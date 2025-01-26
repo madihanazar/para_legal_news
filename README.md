@@ -54,13 +54,13 @@ To run the project locally, follow these steps:
    git clone https://github.com/yourusername/para_legal_news.git
    cd para_legal_news/latest_ai_development/src/latest_ai_development
 
-Make sure to export the `PYTHONPATH` to include the project directory:
+2. Make sure to export the `PYTHONPATH` to include the project directory:
   
   ```bash
   export PYTHONPATH=$(pwd)
   ```
 
-Run the Gradio UI:
+3. Run the Gradio UI:
   ```bash
     python3 gradio_ui.py
   ```
