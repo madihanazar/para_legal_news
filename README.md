@@ -85,14 +85,14 @@ To run the project locally, follow these steps:
 8. Make sure to export the `PYTHONPATH` to include the project directory:
   
   ```bash
-    cd src/latest_ai_development/
+    cd src/
     export PYTHONPATH=$(pwd)
   ```
 
 7. Run the Gradio UI:
 
   ```bash
-    python3 src/latest_ai_development/gradio_ui.py
+    python3 latest_ai_development/gradio_ui.py
   ```
 
 ## Acknowledgments
