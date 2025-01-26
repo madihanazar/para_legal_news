@@ -53,13 +53,12 @@ To run the project locally, follow these steps:
    
    ```bash
    git clone https://github.com/yourusername/para_legal_news.git
-   cd para_legal_news/latest_ai_development/src/latest_ai_development
+   cd para_legal_news/
    
 
 3. Create a virtual env:
    
    ```bash
-    cd latest_ai_development
     python -m venv venv
     
 
@@ -83,6 +82,7 @@ To run the project locally, follow these steps:
 8. Make sure to export the `PYTHONPATH` to include the project directory:
   
   ```bash
+    cd latest_ai_development/src/latest_ai_development/
     export PYTHONPATH=$(pwd)
   ```
 
